@@ -1,0 +1,191 @@
+<html> 
+<style>
+
+
+#top-nav { width: 100%; position: fixed; 
+top:0px;
+left:0px;
+}
+
+ul { list-style-type: none;
+  margin: 0;
+  padding: 0;
+  top: 0px; 
+  } 
+
+
+li { 
+  display: inline-block;
+ padding:10px; 
+  
+ }
+
+a { 
+text-decoration: none;
+color: black; 
+font-family: arial,sans-serif; }
+a:hover { text-decoration: underline;}
+#about {font-size:12px;
+  float: left;
+  margin-top: 12px;
+  margin-left: 15px; 
+  }
+#store {font-size:12px;
+  float: left;
+  margin-top: 12px; 
+}
+#gmail  { font-size:12px;
+  float: right; 
+  margin-top: 12px; 
+}
+
+#images { font-size:12px;
+  float:right; 
+  margin-top:12px; 
+  
+}
+
+#widget { float:right; margin-top: 12px;}
+
+#sign-in {display: block; 
+  float:right;
+  background-color: #4287f5;
+  text-decoration-color: #f2f2f2;
+  border-radius: 5%;
+  position:relative;
+  top:20px;
+  max-height:25px;
+  font-size: 12px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-right: 15px;
+  }
+  span { color:white;}
+
+#google-image {
+  width: 272 px;
+  height: 92 px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 180px;
+  
+}
+
+#search-part { display: inline-block; 
+margin-left: 400px;   
+margin-bottom: 100px; 
+padding-bottom: 100px;
+}
+#search-bar {  display: block; 
+    border-width: 2px; 
+    border-color:  rgba(255, 255, 255, 0.532);
+    border-radius: 25px;
+width: 550px; 
+height:40px;
+margin-left: auto;
+margin-right: auto;
+  background-color: rgba(255, 255, 255, 0.932);
+  background-image: url('searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+  padding-bottom: 20px; 
+  border-bottom-color: #b4b4b4;
+  border-right-color:b4b4b4;
+  
+}
+
+
+#google-search {  position: relative;left:120px; height:40px; width:130px;
+ border:0px; margin-top:30px;
+text-align: center;
+background-color: #f2f2f2;
+border-radius: 5px;
+ }
+
+ #feeling-lucky {  position: relative; left:120px; height:40px; width:130px;
+ border:0px; margin:5px;
+text-align: center;
+background-color: #f2f2f2;
+border-radius: 5px;
+}
+
+#link { color: blue; 
+font-family: Arial, sans-serif;
+
+font-size: 12px;
+ position:relative; 
+ top:60px;
+ right:380px; }
+
+#country-nav { width: 100%; position: fixed; bottom:38px;
+left:0px; background-color: rgba(45, 45, 45, 0.1); }
+
+#country-bar { border-top: 1px; 
+border-top-color: gray;}
+
+#bottom-nav { width: 100%; position: fixed; bottom:0px;
+left:0px; background-color: rgba(45, 45, 45, 0.1); }
+#country { margin-left:15px; font-size: 15px;
+font-family: arial, sans-serif; }
+#advertising { float:left; 
+margin-left: 15px;}
+#business { float : left;
+   font-size: 15px; 
+font-family: arial, sans-serif; }
+#how {float : left; }{ font-size: 15px; 
+font-family: arial, sans-serif;}
+#privacy { float: right;  font-size: 15px; 
+font-family: arial, sans-serif;}
+#terms { float: right; font-size: 15px; 
+font-family: arial, sans-serif;}
+#settings { float: right; font-size: 15px; 
+font-family: arial, sans-serif;}
+footer 
+#bottom-bar { background-color: rgba(45, 45, 45, 0.1); }
+
+</style>
+<main>
+  <header>
+  <nav id="top-nav"><ul id="top-bar"><li id="about"><a href="#">About</a></li> 
+  <li id="store"><a href="#">Store</a></li>
+  <li id="sign-in"><a href="#"><span>Sign In</span></a></li>
+  <li id="widget"><img src="#"></li>
+  <li id="images"><a href="#">Images</a></li>
+  <li id="gmail"><a href="#">Gmail</a></li></ul></nav>
+  
+ 
+  </header>
+  
+  
+  <body>
+  
+  <div id="image-div"><img id="google-image" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google image"></div>
+  <div id="search-part"><form id="search"><input id="search-bar" type="text">
+  <input type="submit" value="Google Search" id="google-search" name="google-search">
+    <input type="submit" value="I'm Feeling Lucky" id="feeling-lucky" name="feeling-lucky"></form>
+  </div> 
+
+  <a id ="link" href="#">To everyone helping, thank you</a>
+  </body>
+  
+  <footer> 
+    <div id="country-bar"><nav id="country-nav"><ul id="country-list"><li id="country">United Kingdom</li></ul></nav></div>
+    <div id="bottom-bar"><nav id="bottom-nav"><ul id="footer-bar"><li id="advertising"><a href="#">Advertising</a></li> 
+      <li id="business"><a href="#">Business</a></li>
+      <li id="how"><a href="#">How search works</a></li>
+      <li id="privacy"><a href="#">Privacy</a></li>
+      <li id="terms"><a href="#">Terms</a></li>
+      <li id="settings"><a href="#">Settings</a></li>
+    </ul></nav>
+    </div>
+    
+  
+  
+  </footer>
+  </main>
+
+</html>
